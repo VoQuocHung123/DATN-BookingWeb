@@ -1,4 +1,9 @@
 .table {
+  .tableCell{
+    ul{
+      padding: 0;
+    }
+  }
   .cellWrapper {
     display: flex;
     align-items: center;

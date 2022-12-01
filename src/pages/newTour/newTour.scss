@@ -1,0 +1,125 @@
+.new {
+  width: 100%;
+  display: flex;
+
+  .newContainer {
+    flex: 6;
+    .top,
+    .bottom {
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      padding: 10px;
+      margin: 20px;
+      display: flex;
+
+      h1 {
+        color: lightgray;
+        font-size: 20px;
+      }
+      form {
+        display: flex;
+        .right {
+          flex: 2;
+          img {
+            width: 250px;
+            height: 200px;
+            border-radius: 5%;
+            object-fit: cover;
+          }
+          .update-slide-image {
+            display: flex;
+            flex-wrap: wrap;
+          }
+          .slide-image-item {
+            display: none;
+          }
+          .img-slide-select {
+            width: 100px;
+            height: 80px;
+            padding-top: 20px;
+            border: 1px solid rgb(209, 202, 202);
+            color: #49d715;
+            font-size: 55px;
+            text-align: center;
+            border-radius: 10px;
+            cursor: pointer;
+          }
+          .action-slide-image {
+            display: none;
+            flex-direction: column;
+            width: 100px;
+            height: 80px;
+            background-color: rgba(0, 0, 0, 0.7);
+            position: absolute;
+            top: 100%;
+            left: 0;
+          }
+          .image-item-container {
+            position: relative;
+            cursor: pointer;
+          }
+          .image-item-container:hover .action-slide-image {
+            top: 0;
+            display: flex;
+          }
+          .group-content-image {
+            width: 100px;
+            margin: 10px 20px;
+          }
+          .btn-update-tour{
+            width: 150px;
+            padding: 10px;
+            border: none;
+            background-color: teal;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 15px;
+          }
+        }
+        .left {
+          flex: 3;
+          .child-form {
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+
+            .formInput {
+              width: 41%;
+              margin: 0 22px;
+            }
+          }
+        }
+        .formInput {
+          width: 85%;
+          margin: 0 20px;
+
+          label {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .icon {
+              cursor: pointer;
+            }
+          }
+
+          .form-input {
+            width: 100%;
+            height: 40px;
+            border: 1px solid gainsboro;
+            border-radius: 7px;
+            padding: 0 10px;
+            margin: 5px 0;
+          }
+          .msg-err {
+            color: red;
+            font-size: small;
+          }
+         
+        }
+      }
+    }
+  }
+}

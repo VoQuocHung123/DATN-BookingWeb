@@ -1,4 +1,5 @@
 import "./sidebar.scss";
+import SmsIcon from '@mui/icons-material/Sms';
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import LocalShippingIcon from "@mui/icons-material/LocalShipping";
@@ -20,8 +21,8 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="top">
-        <Link to="/" style={{ textDecoration: "none" }}>
-          <span className="logo">lamadmin</span>
+        <Link to="/admin" style={{ textDecoration: "none" }}>
+          <span className="logo">Booking Admin</span>
         </Link>
       </div>
       <hr />
@@ -33,57 +34,53 @@ const Sidebar = () => {
             <span>Dashboard</span>
           </li>
           <p className="title">LISTS</p>
-          <Link to="/users" style={{ textDecoration: "none" }}>
+          <Link to="/admin/users" style={{ textDecoration: "none" }}>
             <li>
               <PersonOutlineIcon className="icon" />
-              <span>Users</span>
+              <span>Quản Lý Người Dùng</span>
             </li>
           </Link>
-          <Link to="/products" style={{ textDecoration: "none" }}>
+          <Link to="/admin/tours" style={{ textDecoration: "none" }}>
             <li>
-              <StoreIcon className="icon" />
-              <span>Products</span>
+              <StoreIcon className="icon" style={{color: "#67cc62"}} />
+              <span>Quản lý Tour Du Lịch</span>
             </li>
           </Link>
+          <Link to="/admin/bookingtours" style={{ textDecoration: "none" }}>
           <li>
-            <CreditCardIcon className="icon" />
-            <span>Orders</span>
+            <CreditCardIcon className="icon"  style={{color: "#eb7a34"}} />
+            <span>Quản lý Đặt Tour</span>
           </li>
+          </Link>
+          <Link to="/admin/reviewtours" style={{ textDecoration: "none"}}>
+          <li>
+            <SmsIcon className="icon" />
+            <span>Quản Lý Comments</span>
+          </li>
+          </Link>
+          <Link to="/admin/cars" style={{ textDecoration: "none"}}>
           <li>
             <LocalShippingIcon className="icon" />
-            <span>Delivery</span>
+            <span>Quản Lý Xe Cho Thuê</span>
           </li>
-          <p className="title">USEFUL</p>
+          </Link>
+          <Link to="/admin/bookingcar" style={{ textDecoration: "none"}}>
           <li>
-            <InsertChartIcon className="icon" />
-            <span>Stats</span>
+            <CreditCardIcon className="icon" />
+            <span>Quản Lý Đặt Xe</span>
           </li>
-          <li>
-            <NotificationsNoneIcon className="icon" />
-            <span>Notifications</span>
-          </li>
-          <p className="title">SERVICE</p>
-          <li>
-            <SettingsSystemDaydreamOutlinedIcon className="icon" />
-            <span>System Health</span>
-          </li>
-          <li>
-            <PsychologyOutlinedIcon className="icon" />
-            <span>Logs</span>
-          </li>
-          <li>
-            <SettingsApplicationsIcon className="icon" />
-            <span>Settings</span>
-          </li>
+          </Link>
+          
           <p className="title">USER</p>
           <li>
             <AccountCircleOutlinedIcon className="icon" />
-            <span>Profile</span>
+            <span>Thông tin cá nhân</span>
           </li>
           <li>
             <ExitToAppIcon className="icon" />
-            <span>Logout</span>
+            <span>Đăng xuất</span>
           </li>
+          <p className="title">THEME</p>
         </ul>
       </div>
       <div className="bottom">
