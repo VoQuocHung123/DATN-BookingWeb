@@ -1,0 +1,24 @@
+
+.slide-image-item {
+  width: 200px !important;
+}
+.slick-slider{
+  width: 1032px
+}
+.slick-prev::before{
+  font-size: 50px !important;
+}
+.slick-next::before{
+  font-size: 50px !important;
+}
+.slick-next{
+  right: 10px;
+}
+.slide-detail img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.box-content-form{
+  display: flex;
+}

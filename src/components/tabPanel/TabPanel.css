@@ -1,0 +1,49 @@
+#simple-tabpanel-0{
+    height: 500px;
+    overflow: scroll;
+}
+.content-review{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.input-review{
+    padding: 15px;
+    width: 60%;
+    border: none;
+}
+.btn-send-review{
+    margin: 5px;
+    padding: 0 20px;
+    background-color: rgb(36, 67, 239);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.vote-rating{
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.comment-item{
+    width: 60%;
+    display: flex;
+}
+.content-rating-item{
+    margin-left: 15px;
+}
+.content-rating-item p{
+    padding: 10px 0;
+}
+.add-review{
+    margin-top: 20px;
+}
+.msg-err-comment{
+    color: red;
+    font-size: medium;
+    margin-left: 50px;
+}

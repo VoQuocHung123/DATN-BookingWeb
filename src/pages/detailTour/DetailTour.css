@@ -1,0 +1,105 @@
+.page-bottom{
+    width: 800px;
+    height: 400px;
+    z-index: 3;
+    margin-left: 50px;
+}
+.page-top{
+    display: flex;
+}
+.slide-image-page{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.title-detail{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.right-content{
+    border: 2px solid rgb(20, 60, 236);
+    border-radius: 10px;
+    width: 348px;
+    height: 358px;
+    margin: 20px 10px;
+    position: relative;
+}
+.list-content{
+    position: absolute;
+    list-style-type: none;
+}
+.list-content li{
+    font-size: 15px;
+    padding: 10px 0px;
+}
+.btn-booking{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(20, 60, 236);
+    color: white;
+    border: none;
+}
+.header-form{
+    display: flex;
+    justify-content: space-between;
+}
+.body-form{
+    margin-top: 15px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgb(218, 230, 236);
+}
+.title-info-form{
+    padding: 10px 10px;
+    color:rgb(20, 60, 236) ;
+}
+.list-info-form{
+    width: 360px;
+}
+.date-start{
+    padding-left: 25px;
+}
+.input-date-start{
+    padding: 5px;
+    margin-left: 60px;
+}
+.input-adult, .input-child{
+    width: 50px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.total-price{
+    font-size: medium;
+    color: red;
+    margin-left: 15px;
+}
+.box-btn-event{
+    display: flex;
+    justify-content: center;
+}
+.btn-cancel-form ,.btn-accept-form{
+    cursor: pointer;
+    padding: 8px 40px;
+    border: none;
+    border-radius: 15px;
+    margin: 0 10px;
+    margin-top: 20px;
+}
+.btn-cancel-form{
+    border: 1px solid rgb(20, 60, 236);
+    color: rgb(20, 60, 236);
+    background-color: white;
+}
+.btn-accept-form{
+    background-color: rgb(20, 60, 236);
+    color: white;
+}
+.msg-err-form{
+    color: red;
+    text-align: center;
+    padding-bottom: 10px;
+}

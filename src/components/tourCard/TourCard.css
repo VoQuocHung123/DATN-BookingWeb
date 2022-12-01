@@ -1,0 +1,63 @@
+.label-new{
+    position: absolute;
+    top : 8px;
+    left: 8px;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    background-color: red;
+    width: 80px;
+    color: white;
+    border-radius: 5px;
+}
+.container-img-label{
+    position: relative;
+}
+.fpItem{
+    background-color: white;
+    border: 1px solid #c9d1dd;
+    border-radius: 8px;
+    height: 380px !important;
+}
+
+.fpName,.fpCity, .fpPrice{
+    padding-left: 10px;
+}
+.fpPrice{
+    padding-bottom: 10px;
+}
+.fpItemSlide{
+    background-color: white;
+    border: 1px solid #c9d1dd;
+    border-radius: 8px;
+    height: 290px !important;
+}
+.fpNameSlide{
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+    height: 40px;
+}
+.fpCitySlide{
+    padding: 10px;
+    display: block;
+}
+.fpItemSearch{
+    background-color: white;
+    border: 1px solid #c9d1dd;
+    border-radius: 8px;
+    width: 260px;
+    height: 320px !important;
+    margin: 10px 10px;
+    margin-left: 22px;
+}
+.fpNameSearch{
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+    height: 40px;
+}
+.fpCitySearch{
+    padding: 10px;
+    display: block;
+}
